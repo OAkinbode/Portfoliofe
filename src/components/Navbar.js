@@ -12,14 +12,7 @@ function Navbar() {
             Home
           </a>
         </li>
-        <li>
-          <a
-            href="/about"
-            className="text-white hover:text-gray-300 px-3 py-2 rounded-md"
-          >
-            About
-          </a>
-        </li>
+
         <li>
           <a
             href="/Projects"

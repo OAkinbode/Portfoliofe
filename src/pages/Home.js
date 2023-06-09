@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Leftpane from "../components/Leftpane";
-// import Titleblock from "../components/Titleblock";
 import profileimage from "../assets/ProfilePicture6.jpeg";
 import backgroundimage from "../assets/checkerboard-cross.webp";
 import Textcontainer2 from "../components/Textcontainer2";

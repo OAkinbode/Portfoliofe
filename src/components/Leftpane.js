@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  FaInfoCircle,
   FaProjectDiagram,
   FaScrewdriver,
   FaSchool,
@@ -16,7 +15,7 @@ function Leftpane() {
       <div className="bg-gray-50 shadow-md">
         <div className="py-12">
           <p className="font-sans text-red-600 text-4xl whitespace-normal text-center px-4">
-            <Link to="/About">Sola Akinbode</Link>
+            <Link to="/Projects">Sola Akinbode</Link>
           </p>
           <p className="text-center px-4">Full Stack Developer</p>
         </div>
@@ -29,15 +28,6 @@ function Leftpane() {
           </div>
           <Link to="/" className="px-12">
             Home
-          </Link>
-        </div>
-        <div className="flex py-4 hover:bg-green-50">
-          <div className="px-4">
-            <FaInfoCircle size={30} color="green" />
-          </div>
-
-          <Link to="/About" className="px-12">
-            About
           </Link>
         </div>
         <div className="flex py-4 hover:bg-red-50">

@@ -2,8 +2,8 @@ import React from "react";
 
 function Textcontainer(props) {
   return (
-    <div className="px-6 py-6 w-1/2">
-      <div className="w-full bg-gray-50 shadow-xl h-60 px-4">
+    <div className="px-6 py-6 w-96">
+      <div className="w-full bg-gray-50 shadow-xl h-72 px-4">
         <div className="border-b-2 border-gray-400">
           <p className="font-sans text-2xl whitespace-normal text-left px-4 py-4 italic">
             {props.title}
@@ -18,7 +18,7 @@ function Textcontainer(props) {
           <img
             src={props.image}
             alt="Profile"
-            className="w-1/4 h-auto rounded-full shadow-xl "
+            className="w-1/4 h-auto rounded-full shadow-xl"
           />
         </div>
       </div>
